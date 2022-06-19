@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <script src="less.js" type="text/javascript"></script>
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="all">
+
+    <ul class="piano">
+     
+        <li class="key white c"     data-note="c1">C<br><P>a</P></li>
+        <li class="key black cs"    data-note="cs1">C#<br><P>w</P></li>
+        <li class="key white d"     data-note="d1">D<br><P>s</P></li>
+        <li class="key black ds"    data-note="ds1">D#<br><P>w</P></li>
+        <li class="key white e"     data-note="e1">E<br><P>d</P></li>
+       
+        
+        <li class="key white f"     data-note="f1">F<br><P>f</P></li>
+        <li class="key black fs"    data-note="fs1">F#<br><P>t</P></li>
+        <li class="key white g"     data-note="g1">G<br><P>g</P></li>
+        <li class="key black gs"    data-note="gs1">G#<br><P>y</P></li>
+        <li class="key white a"     data-note="a2">A<br><P>h</P></li>
+        <li class="key black as"    data-note="as2">A#<br><P>u</P></li>
+        <li class="key white b"     data-note="b2">B<br><P>j</P></li>
+
+        <li class="key white c"     data-note="c2">C<br><P>k</P></li>
+        <li class="key black cs"    data-note="cs2">C#<br><P>o</P></li>
+        <li class="key white d"     data-note="d2">D<br><P>l</P></li>
+        <li class="key black ds"    data-note="ds2">D#<br><P>p</P></li>
+        <li class="key white e"     data-note="e2">E<br><P>;</P></li>
+
+    
+<!-- drum -->
+        <table class="drumm" cellspacing="5" cellpadding="4">
+            <tr>
+             <td class="key drum nloc target"    data-note="e1">N.loc</td>
+            <td class="key drum div"    data-note="e1">/</td>
+            <td class="key drum mult"   data-note="a1">*</td>
+            <td class="key drum minus"  data-note="a1">-</td>
+            </tr>
+            <tr>
+            <td class="key drum seven"  data-note="c1">7</td>
+            <td class="key drum eight"  data-note="d1">8</td>
+            <td class="key drum nine"   data-note="e1">9</td>
+            <td class="key drum plus"   data-note="f1" rowspan="2" >+</td>
+            </tr>
+            <tr>
+            <td class="key drum four"   data-note="g1">4</td>
+            <td class="key drum five"   data-note="as1">5</td>
+            <td class="key drum six"    data-note="b2">6</td>
+            </tr>
+            <tr>
+            <td class="key drum one"    data-note="cs1">1</td>
+            <td class="key drum two"    data-note="ds1">2</td>
+            <td class="key drum three"  data-note="fs1">3</td>
+            <td class="key drum ent"  rowspan="2"   data-note="e1">.</td>
+            <!-- <td  rowspan="2"></td> -->
+            </tr>
+            <tr>
+            <td class="key drum zero"   data-note="gs1"colspan="2">0</td>
+            <td class="key drum dot"    data-note="e1">.</td>
+            <!-- <td class="key drum dot"    data-note="e1">.</td> -->
+            
+            </tr>
+        </table>
+
+
+
+    </ul>
+    
+    
+    <audio id="b1" src="keys/b1.mp3"></audio>
+    <audio id="as1" src="keys/as1.mp3"></audio>
+    <audio id="a1" src="keys/a1.mp3"></audio>
+    <audio id="gs1" src="keys/gs1.mp3"></audio>
+    <audio id="g1" src="keys/g1.mp3"></audio>
+    <audio id="fs1" src="keys/fs1.mp3"></audio>
+    <audio id="f1" src="keys/f1.mp3"></audio>
+    <audio id="e1" src="keys/e1.mp3"></audio>
+    <audio id="e2" src="keys/e2.mp3"></audio>
+    <audio id="ds1" src="keys/ds1.mp3"></audio>
+    <audio id="d1" src="keys/d1.mp3"></audio>
+    <audio id="ds2" src="keys/ds2.mp3"></audio>
+    <audio id="d2" src="keys/d2.mp3"></audio>
+    <audio id="cs1" src="keys/cs1.mp3"></audio>
+    <audio id="c1" src="keys/c1.mp3"></audio>
+    <audio id="cs2" src="keys/cs2.mp3"></audio>
+    <audio id="c2" src="keys/c2.mp3"></audio>
+    <audio id="b2" src="keys/b2.mp3"></audio>
+    <audio id="as2" src="keys/as2.mp3"></audio>
+    <audio id="a2" src="keys/a2.mp3"></audio>
+    <audio id="gs2" src="keys/gs2.mp3"></audio>
+    <audio id="g2" src="keys/g2.mp3"></audio>
+    <audio id="fs2" src="keys/fs2.mp3"></audio>
+    <audio id="f2" src="keys/f2.mp3"></audio>
+</div>
+</body>
